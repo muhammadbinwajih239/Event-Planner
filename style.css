@@ -1,0 +1,362 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body */
+
+body {
+  background: #0f0f0f;
+
+  color: white;
+}
+
+/* Header */
+
+.page-header {
+  text-align: center;
+
+  padding: 60px 20px;
+}
+
+.page-header h1 {
+  color: #d4af37;
+
+  font-size: 45px;
+
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.page-header p {
+  color: #dddddd;
+
+  font-size: 18px;
+
+  max-width: 700px;
+
+  margin: auto;
+
+  line-height: 1.8;
+}
+/* Gallery Section */
+
+.gallery {
+  width: 90%;
+  margin: 40px auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 30px;
+}
+
+.gallery-card {
+  background: #1a1a1a;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+
+  transition: 0.4s;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  border: 2px solid #d4af37;
+  cursor: pointer;
+}
+
+.gallery-card:hover {
+  transform: translatey(-10px);
+
+  box-shadow: 0 20px 40px rgba(212, 175, 55, 0.35);
+}
+
+.gallery-card img {
+  width: 100%;
+
+  height: 250px;
+
+  object-fit: cover;
+  transition: 0.5s;
+}
+.gallery-card:hover img {
+  transform: scale(1.08);
+}
+
+.gallery-card h3 {
+  padding: 18px;
+
+  text-align: center;
+
+  color: #d4af37;
+
+  font-size: 22px;
+
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: 60px;
+
+  padding: 25px;
+
+  text-align: center;
+
+  background: #111;
+
+  color: #ccc;
+
+  border-top: 2px solid #d4af37;
+}
+/* Gallery Intro */
+
+.gallery-intro {
+  width: 85%;
+
+  margin: auto;
+
+  text-align: center;
+
+  margin-top: 20px;
+
+  margin-bottom: 50px;
+}
+
+.gallery-intro h2 {
+  color: #d4af37;
+
+  font-size: 34px;
+
+  margin-bottom: 15px;
+}
+
+.gallery-intro p {
+  color: #cccccc;
+
+  line-height: 1.8;
+
+  font-size: 17px;
+}
+
+
+
+.stat-box h2 {
+  color: #d4af37;
+
+  font-size: 40px;
+}
+
+.stat-box p {
+  color: #cccccc;
+
+  margin-top: 10px;
+}
+/*Statistics*/
+
+.stats {
+  width: 90%;
+
+  margin: 70px auto;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+
+  gap: 25px;
+}
+
+.stat-box {
+  background: #1a1a1a;
+
+  padding: 35px;
+
+  border-radius: 15px;
+
+  border: 2px solid #d4af37;
+
+  text-align: center;
+
+  width: 250px;
+}
+
+.stat-box h2 {
+  color: #d4af37;
+
+  font-size: 40px;
+}
+
+.stat-box p {
+  color: #cccccc;
+
+  margin-top: 10px;
+}
+
+/*Footer*/
+
+.footer {
+  margin-top: 60px;
+
+  padding: 25px;
+
+  text-align: center;
+
+  background: #111111;
+
+  color: #cccccc;
+
+  border-top: 2px solid #d4af37;
+}
+
+/*Responsive Design*/
+
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 35px;
+  }
+
+  .gallery-intro h2 {
+    font-size: 28px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-box {
+    width: 100%;
+  }
+}
+/* Packages */
+
+.packages-container{
+
+    width:90%;
+
+    margin:60px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+.package-card{
+
+    background:#1a1a1a;
+
+    border:2px solid #d4af37;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    overflow: hidden;
+
+}
+
+.package-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(212,175,55,.35);
+
+}
+
+.package-card h2{
+
+    color:#d4af37;
+
+    margin-bottom:15px;
+
+    text-transform: uppercase;
+
+}
+
+.package-card h3{
+
+    font-size:35px;
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.package-card p{
+
+    margin:12px 0;
+
+    color:#dddddd;
+
+}
+.package-card button{
+
+    margin-top:20px;
+
+    padding:12px 40px;
+
+    background:#d4af37;
+
+    color:#111;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    width:100%;
+
+}
+
+.package-card button:hover{
+
+    background:white;
+
+    color:black;
+
+}
+
+/* Premium Package */
+
+.premium{
+
+    transform:scale(1.05);
+    border:3px solid #FFD700;
+
+}
+
+/* Responsive Design */
+
+@media(max-width:768px){
+
+    .packages-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
