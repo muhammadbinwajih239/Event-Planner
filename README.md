@@ -2,7 +2,7 @@
 
 A responsive Event Planner website project built using HTML and CSS as part of a group web development project.
 
-# My Contribution
+## My Contribution
 
 I was responsible for developing the following pages:
 
@@ -11,9 +11,9 @@ I was responsible for developing the following pages:
 
 I also organized the page structure, linked the required stylesheet, and used local image assets for the Gallery page.
 
-# Pages
+## Pages
 
-# Gallery Page
+### Gallery Page
 
 The Gallery page showcases different types of events, including:
 
@@ -23,7 +23,7 @@ The Gallery page showcases different types of events, including:
 * Concerts
 * Private Parties
 
-# Packages Page
+### Packages Page
 
 The Packages page presents three event service packages:
 
@@ -31,13 +31,14 @@ The Packages page presents three event service packages:
 * Standard Package
 * Premium Package
 
-# Technologies Used
+## Technologies Used
 
 * HTML5
 * CSS3
 
-# Project Structure
+## Project Structure
 
+```text
 Event-Planner/
 │
 ├── images/
@@ -45,12 +46,13 @@ Event-Planner/
 ├── packages.html
 ├── style.css
 └── README.md
+```
 
-# Project Status
+## Project Status
 
 This repository contains my completed contribution to a group Event Planner website project. The repository includes the pages I was assigned to develop.
 
-# What I Learned
+## What I Learned
 
 Through this project, I practiced:
 
@@ -60,4 +62,3 @@ Through this project, I practiced:
 * Working with images and relative file paths
 * Building responsive page layouts
 * Organizing files for a web project
-
