@@ -62,3 +62,9 @@ Through this project, I practiced:
 * Working with images and relative file paths
 * Building responsive page layouts
 * Organizing files for a web project
+
+* ## Live Demo
+
+* [View Gallery Page](https://muhammadbinwajih239.github.io/Event-Planner/gallery.html)
+* [View Packages Page](https://muhammadbinwajih239.github.io/Event-Planner/packages.html)
+
